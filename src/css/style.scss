@@ -75,6 +75,20 @@ img {
     font-weight: 400;
 }
 
+.fade-in {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: opacity 1.2s cubic-bezier(0.33, 1, 0.68, 1), transform 1.2s cubic-bezier(0.33, 1, 0.68, 1);
+    will-change: opacity, transform;
+    pointer-events: none;
+}
+
+.fade-in.is-active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
 @media screen and (min-width:768px) {
     h1 {
         font-size: 7.29vw;
@@ -320,7 +334,7 @@ header.show {
     background-color: var(--grey1);
 
     .mv {
-        background-image: url(./images/bg-intro-mobile.svg);
+        background-image: url(/images/bg-intro-mobile.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 7%;
@@ -348,7 +362,7 @@ header.show {
 @media screen and (min-width:768px) {
     #fv {
         .mv {
-            background-image: url(./images/bg-intro-desktop.svg);
+            background-image: url(/images/bg-intro-desktop.svg);
             background-size: auto 160%;
             background-position: 30% 90%;
             height: 69.8vw;
