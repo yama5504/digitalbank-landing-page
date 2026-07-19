@@ -1,6 +1,6 @@
 # Frontend Mentor - デジタルバンク ランディングページ（実装済コード）
 
-これは [Frontend Mentor の Easybank landing page チャレンジ](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) に対する実装コードです。支給されたデザインカンプをもとに、vw やメディアクエリを用いた可変（Fluid）レスポンシブ対応、交差監視API（Intersection Observer）によるスクロール連動演出、および Vanilla JS を用いた画面幅連動型のUIインタラクションの実装を行いました。
+これは [Frontend Mentor の Easybank landing page チャレンジ](https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN) に対する実装コードです。支給されたデザインカンプをもとに、vw やメディアクエリを用いた可変（Fluid）レスポンシブ対応、交差監視API（Intersection Observer）によるスクロール連動演出、および Vanilla JS を用いた画面幅連動型のUIインタラクションの実装を行いました。
 
 ## 目次
 
@@ -11,12 +11,12 @@
 - [開発プロセス](#開発プロセス)
   - [ディレクトリ構造](#ディレクトリ構造)
   - [使用技術・環境](#使用技術環境)
-  - [技術的アプローチ](#技術的アプローチ)
+  - [こだわった技術的アプローチ](#こだわった技術的アプローチ)
     - [1. セマンティック・マークアップを意識したHTML構造](#1-セマンティックマークアップを意識したhtml構造)
     - [2. ビューポート幅に追従する可変レイアウト（SCSS）](#2-ビューポート幅に追従する可変レイアウトscss)
     - [3. 画面幅に応じたナビゲーション制御（Vanilla JS）](#3-画面幅に応じたナビゲーション制御vanilla-js)
     - [4. 交差監視APIによるスクロール連動演出（Vanilla JS）](#4-交差監視apiによるスクロール連動演出vanilla-js)
-  - [今後の課題・挑戦したいこと](#今後の課題挑戦したいこと)
+  - [今回の開発での気づき（今後挑戦したいこと）](#今回の開発での気づき（今後挑戦したいこと）)
 - [制作者](#制作者)
 
 ## 概要
